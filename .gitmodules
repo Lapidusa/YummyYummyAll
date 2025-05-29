@@ -1,0 +1,6 @@
+[submodule "YummyYummyBackendFastAPI"]
+	path = YummyYummyBackendFastAPI
+	url = https://github.com/Lapidusa/YummyYummyBackendFastAPI.git
+[submodule "YummyYummyFrontendNuxt"]
+	path = YummyYummyFrontendNuxt
+	url = https://github.com/Lapidusa/YummyYummyFrontendNuxt.git
