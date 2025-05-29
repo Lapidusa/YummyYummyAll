@@ -1,3 +1,5 @@
+version: "3.9"
+
 networks:
   dev:
 
@@ -13,11 +15,15 @@ services:
       - frontend
     networks:
       - dev
+
   backend:
     build:
       context: ./YummyYummyBackendFastAPI
+    env_file:
+      - ./YummyYummyBackendFastAPI/.env
     networks:
       - dev
+
   frontend:
     build:
       context: ./YummyYummyFrontendNuxt
